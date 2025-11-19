@@ -27,7 +27,7 @@ const HeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
 
   return (
     <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <Link href={`/${item.href}`} className={`text-lg flex hover:text-black capitalized relative ${isActive ? 'text-black after:absolute after:w-8 after:h-1 after:bg-primary after:rounded-full after:-bottom-1' : 'text-grey'}`}>
+      <Link href={`/${item.href}`} className={`text-lg flex hover:text-[#C2C9CC] capitalized relative ${isActive ? 'text-black after:absolute after:w-8 after:h-1 after:bg-primary after:rounded-full after:-bottom-1' : 'text-grey'}`}>
         {item.label}
         {item.submenu && (
           <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ const HeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
           {item.submenu?.map((subItem, index) => {
             const isSubItemActive = path === subItem.href; // Check if the submenu item is active
             return (
-              <Link key={index} href={subItem.href} className={`block px-4 py-2 ${isSubItemActive ? 'bg-[#0cc0df] text-white' : 'text-black dark:text-white hover:bg-primary'}`}>
+              <Link key={index} href={subItem.href} className={`block px-4 py-2 ${isSubItemActive ? 'bg-[#C2C9CC] text-white' : 'text-black dark:text-white hover:bg-[#C2C9CC]'}`}>
                 {subItem.label}
               </Link>
             );

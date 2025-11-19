@@ -60,7 +60,7 @@ const Header: React.FC = () => {
   }, [isSignInOpen, isSignUpOpen, navbarOpen]);
 
   return (
-    <header className={`fixed top-0 z-40 w-full pb-5 transition-all duration-300 bg-white ${sticky ? ' shadow-lg py-5' : 'shadow-none py-6'}`}>
+    <header className={`fixed top-0 z-40 w-full pb-5 transition-all duration-300 bg-[#25292C] ${sticky ? ' shadow-lg py-5' : 'shadow-none py-6'}`}>
       <div className="lg:py-0 py-2">
         <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between px-4">
           <Logo />
@@ -72,7 +72,7 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-4">
             <Link
               href="#"
-              className="hidden lg:block bg-primary text-white hover:bg-primary/15 hover:text-primary px-16 py-5 rounded-full text-lg font-medium"
+              className="hidden lg:block bg-[#C2C9CC] text-black hover:bg-primary/15 hover:text-primary px-16 py-5 rounded-full text-lg font-medium"
               onClick={() => {
                 setIsSignInOpen(true);
               }}
@@ -91,7 +91,7 @@ const Header: React.FC = () => {
             )}
             <Link
               href="#"
-              className="hidden lg:block bg-primary/15 hover:bg-primary text-primary hover:text-white px-16 py-5 rounded-full text-lg font-medium"
+              className="hidden lg:block bg-primary/15 hover:bg-[#C2C9CC] text-primary hover:text-black px-16 py-5 rounded-full text-lg font-medium"
               onClick={() => {
                 setIsSignUpOpen(true);
               }}
@@ -100,7 +100,7 @@ const Header: React.FC = () => {
             </Link>
             {isSignUpOpen && (
               <div className="fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50">
-                <div ref={signUpRef} className="relative mx-auto w-full max-w-md overflow-hidden rounded-lg bg-white backdrop-blur-md px-8 pt-14 pb-8 text-center">
+                <div ref={signUpRef} className="relative mx-auto w-full max-w-md overflow-hidden rounded-lg bg-[#25292C] backdrop-blur-md px-8 pt-14 pb-8 text-center">
                   <button onClick={() => setIsSignUpOpen(false)} className="absolute top-0 right-0 mr-8 mt-8 dark:invert" aria-label="Close Sign Up Modal">
                     <Icon icon="tabler:currency-xrp" className="text-black hover:text-primary text-24 inline-block me-2" />
                   </button>

@@ -4,7 +4,7 @@ import { getImagePrefix } from '@/utils/util';
 
 const Hero = () => {
   return (
-    <section id="home-section" className="bg-slateGray">
+    <section id="home-section" className="bg-[#C2C9CC]">
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 pt-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 space-x-1 items-center">
           <div className="col-span-6 flex flex-col gap-8 ">

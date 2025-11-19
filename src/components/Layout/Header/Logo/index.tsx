@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Logo: React.FC = () => {
   return (
     <Link href="/">
-      <Image src={`${getImagePrefix()}images/logo/logo.jpeg`} alt="logo" width={60} height={60} style={{ width: '90', height: 'auto' }} quality={100} />
+      <Image src={`${getImagePrefix()}images/logo/rcoy-.png`} alt="logo" width={60} height={60} style={{ width: '90', height: 'auto' }} quality={100} />
     </Link>
   );
 };
