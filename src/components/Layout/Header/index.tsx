@@ -69,7 +69,7 @@ const Header: React.FC = () => {
               <HeaderLink key={index} item={item} />
             ))}
           </nav>
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <Link
               href="#"
               className="hidden lg:block bg-[#C2C9CC] text-black hover:bg-primary/15 hover:text-primary px-16 py-5 rounded-full text-lg font-medium"
@@ -113,7 +113,7 @@ const Header: React.FC = () => {
               <span className="block w-6 h-0.5 bg-white mt-1.5"></span>
               <span className="block w-6 h-0.5 bg-white mt-1.5"></span>
             </button>
-          </div>
+          </div> */}
         </div>
         {navbarOpen && <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-40" />}
         <div ref={mobileMenuRef} className={`lg:hidden fixed top-0 right-0 h-full w-full bg-darkmode shadow-lg transform transition-transform duration-300 max-w-xs ${navbarOpen ? 'translate-x-0' : 'translate-x-full'} z-50`}>
@@ -125,7 +125,7 @@ const Header: React.FC = () => {
             {/*  */}
             <button onClick={() => setNavbarOpen(false)} className="bg-[url('/images/closed.svg')] bg-no-repeat bg-contain w-5 h-5 absolute top-0 right-0 mr-8 mt-8 dark:invert" aria-label="Close menu Modal"></button>
           </div>
-          <nav className="flex flex-col items-start p-4">
+          {/* <nav className="flex flex-col items-start p-4">
             {headerData.map((item, index) => (
               <MobileHeaderLink key={index} item={item} />
             ))}
@@ -151,7 +151,7 @@ const Header: React.FC = () => {
                 Sign Up
               </Link>
             </div>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </header>
