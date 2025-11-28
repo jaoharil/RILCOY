@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="flex items-center justify-between pt-10 lg:pt-4">
               <div className="flex gap-2">
                 <Image src={`${getImagePrefix()}images/banner/check-circle.svg`} alt="check-image" width={30} height={30} className="smallImage" />
-                <p className="text-sm sm:text-lg font-normal text-black">Apa ya</p>
+                <p className="text-sm sm:text-lg font-normal text-black">Web Berita</p>
               </div>
               <div className="flex gap-2">
                 <Image src={`${getImagePrefix()}images/banner/check-circle.svg`} alt="check-image" width={30} height={30} className="smallImage" />
@@ -31,7 +31,11 @@ const Hero = () => {
               </div>
               <div className="flex gap-2">
                 <Image src={`${getImagePrefix()}images/banner/check-circle.svg`} alt="check-image" width={30} height={30} className="smallImage" />
-                <p className="text-sm sm:text-lg font-normal text-black">Tugas Kuliah</p>
+                <p className="text-sm sm:text-lg font-normal text-black">Porfolio</p>
+              </div>
+              <div className="flex gap-2">
+                <Image src={`${getImagePrefix()}images/banner/check-circle.svg`} alt="check-image" width={30} height={30} className="smallImage" />
+                <p className="text-sm sm:text-lg font-normal text-black">Siakad</p>
               </div>
             </div>
           </div>

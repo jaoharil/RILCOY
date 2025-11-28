@@ -1,21 +1,21 @@
 export const TruestedCompanies: { imgSrc: string }[] = [
   {
-    imgSrc: '/images/companies/js.png',
+    imgSrc: 'images/companies/js.png',
   },
   {
-    imgSrc: '/images/companies/react.png',
+    imgSrc: 'images/companies/react.png',
   },
   {
-    imgSrc: '/images/companies/vue.png',
+    imgSrc: 'images/companies/vue.png',
   },
   {
-    imgSrc: '/images/companies/ts.png',
+    imgSrc: 'images/companies/ts.png',
   },
   {
-    imgSrc: '/images/companies/php.png',
+    imgSrc: 'images/companies/php.png',
   },
   {
-    imgSrc: '/images/companies/laravel.png',
+    imgSrc: 'images/companies/laravel.png',
   },
 
   // {
@@ -35,7 +35,7 @@ export const courseData: {
   {
     heading: 'Porfolio Web',
     name: 'Tingkatkan citra profesionalmu dengan website portofolio elegan yang menampilkan karya, profil, dan identitas kamu secara premium — bikin klien langsung percaya.',
-    imgSrc: '/images/courses/vesmet.png',
+    imgSrc: 'images/courses/vesmet.png',
     students: 150,
     classes: 12,
     price: '500rb - 1.5juta',
@@ -44,7 +44,7 @@ export const courseData: {
   {
     heading: 'Website Booking',
     name: 'Permudah reservasi bisnis kamu dengan sistem booking otomatis — pelanggan pilih jadwal & bayar langsung tanpa antre, bisnis jadi lebih efisien',
-    imgSrc: '/images/courses/rental.png',
+    imgSrc: 'images/courses/rental.png',
     students: 130,
     classes: 12,
     price: '900rb - 2.5juta',
@@ -53,7 +53,7 @@ export const courseData: {
   {
     heading: 'E - Commerce',
     name: 'Bangun toko online resmi tanpa batas waktu & tanpa marketplace — kelola produk, pesanan, dan pembayaran otomatis untuk meningkatkan omset 24/7.',
-    imgSrc: '/images/courses/shope.png',
+    imgSrc: 'images/courses/shope.png',
     students: 120,
     classes: 12,
     price: '900rb - 3juta',
@@ -62,7 +62,7 @@ export const courseData: {
   {
     heading: 'Portal Berita',
     name: 'Jadilah sumber informasi terpercaya dengan portal berita modern, cepat, dan SEO-friendly — siap untuk media kampus, komunitas, dan organisasi.',
-    imgSrc: '/images/courses/shopee.png',
+    imgSrc: 'images/courses/shopee.png',
     students: 150,
     classes: 12,
     price: '800rb - 1.5juta',
@@ -71,7 +71,7 @@ export const courseData: {
   {
     heading: 'Website skolah / Siakad',
     name: 'Tingkatkan citra profesionalmu dengan website portofolio elegan yang menampilkan karya, profil, dan identitas kamu secara premium — bikin klien langsung percaya.',
-    imgSrc: '/images/courses/web.png',
+    imgSrc: 'images/courses/web.png',
     students: 150,
     classes: 12,
     price: '1.5juta - 3juta',
