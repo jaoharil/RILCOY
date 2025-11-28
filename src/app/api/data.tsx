@@ -17,9 +17,7 @@ export const TruestedCompanies: { imgSrc: string }[] = [
   {
     imgSrc: '/images/companies/laravel.png',
   },
-  {
-    imgSrc: '/images/companies/node.png',
-  },
+
   // {
   //   imgSrc: '/images/companies/fedex.svg',
   // },
@@ -31,63 +29,63 @@ export const courseData: {
   name: string;
   students: number;
   classes: number;
-  price: number;
+  price: string;
   rating: number;
 }[] = [
   {
-    heading: 'Jual Beli Motor Vesmet',
-    name: 'Colt stelle',
+    heading: 'Porfolio Web',
+    name: 'Tingkatkan citra profesionalmu dengan website portofolio elegan yang menampilkan karya, profil, dan identitas kamu secara premium — bikin klien langsung percaya.',
     imgSrc: '/images/courses/vesmet.png',
     students: 150,
     classes: 12,
-    price: 20,
+    price: '500rb - 1.5juta',
     rating: 4.4,
   },
   {
-    heading: 'Sistem Rental Kendaraan',
-    name: 'Colt stelle',
+    heading: 'Website Booking',
+    name: 'Permudah reservasi bisnis kamu dengan sistem booking otomatis — pelanggan pilih jadwal & bayar langsung tanpa antre, bisnis jadi lebih efisien',
     imgSrc: '/images/courses/rental.png',
     students: 130,
     classes: 12,
-    price: 20,
+    price: '900rb - 2.5juta',
     rating: 4.5,
   },
   {
-    heading: 'Sistem Penjualan fashion',
-    name: 'Colt stelle',
+    heading: 'E - Commerce',
+    name: 'Bangun toko online resmi tanpa batas waktu & tanpa marketplace — kelola produk, pesanan, dan pembayaran otomatis untuk meningkatkan omset 24/7.',
     imgSrc: '/images/courses/shope.png',
     students: 120,
     classes: 12,
-    price: 20,
+    price: '900rb - 3juta',
     rating: 5,
   },
   {
-    heading: 'Sistem Penjualan Online',
-    name: 'Colt stelle',
+    heading: 'Portal Berita',
+    name: 'Jadilah sumber informasi terpercaya dengan portal berita modern, cepat, dan SEO-friendly — siap untuk media kampus, komunitas, dan organisasi.',
     imgSrc: '/images/courses/shopee.png',
     students: 150,
     classes: 12,
-    price: 20,
+    price: '800rb - 1.5juta',
     rating: 5,
   },
   {
-    heading: 'Sistem Boking Hotel',
-    name: 'Colt stelle',
+    heading: 'Website skolah / Siakad',
+    name: 'Tingkatkan citra profesionalmu dengan website portofolio elegan yang menampilkan karya, profil, dan identitas kamu secara premium — bikin klien langsung percaya.',
     imgSrc: '/images/courses/web.png',
     students: 150,
     classes: 12,
-    price: 20,
+    price: '1.5juta - 3juta',
     rating: 5,
   },
-  {
-    heading: 'Ecomerce Webflow Template',
-    name: 'Colt stelle',
-    imgSrc: '/images/courses/toko.png',
-    students: 150,
-    classes: 12,
-    price: 20,
-    rating: 4.2,
-  },
+  // {
+  //   heading: 'Ecomerce Webflow Template',
+  //   name: 'Colt stelle',
+  //   imgSrc: '/images/courses/toko.png',
+  //   students: 150,
+  //   classes: 12,
+  //   price: 20,
+  //   rating: 4.2,
+  // },
 ];
 
 export const MentorData: { profession: string; name: string; imgSrc: string }[] = [

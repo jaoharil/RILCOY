@@ -89,17 +89,16 @@ const Courses = () => {
                         {renderStars(items.rating)} {/* Dynamic stars */}
                       </div>
                     </div>
-                    <h3 className="text-3xl font-medium">${items.price}</h3>
+                    <h3 className=" font-medium">Rp: {items.price}</h3>
                   </div>
                   <div className="flex justify-between pt-6">
-                    <div className="flex gap-4">
-                      <Icon icon="solar:notebook-minimalistic-outline" className="text-primary text-xl inline-block me-2" />
-                      <h3 className="text-base font-medium text-black opacity-75">{items.classes} classes</h3>
+                    <div className="flex gap-4 bg-slate-500 px-1 py-1 rounded-full cursor-pointer">
+                      <button className="bg-slate-700 hover:bg-slate-900 text-white px-5 py-2 rounded-full w-max font-medium">Pesan Sekarang</button>
                     </div>
-                    <div className="flex gap-4">
+                    {/* <div className="flex gap-4">
                       <Icon icon="solar:users-group-rounded-linear" className="text-primary text-xl inline-block me-2" />
                       <h3 className="text-base font-medium text-black opacity-75">{items.students} students</h3>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
