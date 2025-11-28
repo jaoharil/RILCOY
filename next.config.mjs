@@ -1,13 +1,18 @@
-/** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
+const isVercel = process.env.VERCEL === '1';
 
 const nextConfig = {
-  basePath: isProd ? '/rilcoy' : '',
-  assetPrefix: isProd ? '/rilcoy/' : '',
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
+  ...(isVercel
+    ? {
+        output: 'standalone',
+        images: { unoptimized: false },
+      }
+    : {
+        basePath: '/rilcoy',
+        assetPrefix: '/rilcoy/',
+        output: 'export',
+        images: { unoptimized: true },
+      }),
 };
 
 export default nextConfig;
